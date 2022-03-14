@@ -4,7 +4,7 @@ export default function deprem(props) {
   const { depremler, data } = props;
   return (
     <>
-      <div className="py-10 mr-8 items-center">
+      <div className="py-10">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
           <div className="p-[6px] rounded-lg space-y-2">
             <div className="bg-[#080808] hover:bg-[#101010] py-4 px-6 hover:-translate-y-[8px]  transition-all duration-200 bg-brand-black rounded-lg">
@@ -69,8 +69,8 @@ export default function deprem(props) {
           <h1 className="py-4 ml-6 mr-2 text-2xl font-bold text-gray-300">
             Depremler
           </h1>
-          <div class="sm:-mx-6 lg:-mx-8">
-            <div class="p-8 ml-6 mr-2">
+          <div class="sm:-mx-6 lg:-mx-20">
+            <div class="p-8">
               <div class="shadow-md sm:rounded-lg">
                 <table class="min-w-full">
                   <thead class="bg-black">
