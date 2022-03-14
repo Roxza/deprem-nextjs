@@ -6,7 +6,6 @@ import ReactLoading from "react-loading";
 export default function Home() {
   const { data: _data } = swr("api/deprem");
   const data = _data ? _data : null;
-  let veri;
   return (
     <>
       {data ? (
