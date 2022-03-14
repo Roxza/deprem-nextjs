@@ -1,5 +1,4 @@
-
-[![DeepScan grade](https://deepscan.io/api/teams/17008/projects/20358/branches/554638/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=17008&pid=20358&bid=554638)
+[![DeepScan grade](https://deepscan.io/api/teams/17008/projects/20518/branches/560173/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=17008&pid=20518&bid=560173)
 
 <h1 align="center">Earthquake Statistics in Turkey</h1>
 <h6 align="center">Developed with ❤️ by <a href="https://roxza.me">Roxza</a></h6>
