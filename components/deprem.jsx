@@ -65,67 +65,67 @@ export default function deprem(props) {
             </div>
           </div>
         </div>
-        <div class="pt-20">
+        <div className="pt-20">
           <h1 className="py-4 ml-6 mr-2 text-2xl font-bold text-gray-300">
             Depremler
           </h1>
-          <div class="sm:-mx-6 lg:-mx-20">
-            <div class="p-8">
-              <div class="shadow-md sm:rounded-lg">
-                <table class="min-w-full">
-                  <thead class="bg-black">
+          <div className="sm:-mx-6 lg:-mx-20">
+            <div className="p-8">
+              <div className="shadow-md sm:rounded-lg">
+                <table className="min-w-full">
+                  <thead className="bg-black">
                     <tr className="w-full">
                       <th
                         scope="col"
-                        class="py-3 px-6 text-xs font-medium tracking-wider text-left  uppercase text-gray-400"
+                        className="py-3 px-6 text-xs font-medium tracking-wider text-left  uppercase text-gray-400"
                       >
                         Tarih
                       </th>
                       <th
                         scope="col"
-                        class="py-3 px-6 text-xs font-medium tracking-wider text-left  uppercase text-gray-400"
+                        className="py-3 px-6 text-xs font-medium tracking-wider text-left  uppercase text-gray-400"
                       >
                         Saat
                       </th>
                       <th
                         scope="col"
-                        class="py-3 px-6 text-xs font-medium tracking-wider text-left  uppercase text-gray-400"
+                        className="py-3 px-6 text-xs font-medium tracking-wider text-left  uppercase text-gray-400"
                       >
                         Enlem
                       </th>
                       <th
                         scope="col"
-                        class="py-3 px-6 text-xs font-medium tracking-wider text-left  uppercase text-gray-400"
+                        className="py-3 px-6 text-xs font-medium tracking-wider text-left  uppercase text-gray-400"
                       >
                         Boylam
                       </th>
                       <th
                         scope="col"
-                        class="py-3 px-6 text-xs font-medium tracking-wider text-left  uppercase text-gray-400"
+                        className="py-3 px-6 text-xs font-medium tracking-wider text-left  uppercase text-gray-400"
                       >
                         Derinlik
                       </th>
                       <th
                         scope="col"
-                        class="py-3 px-6 text-xs font-medium tracking-wider text-left  uppercase text-gray-400"
+                        className="py-3 px-6 text-xs font-medium tracking-wider text-left  uppercase text-gray-400"
                       >
                         Büyüklük (KRDAE)
                       </th>
                       <th
                         scope="col"
-                        class="py-3 px-6 text-xs font-medium tracking-wider text-left  uppercase text-gray-400"
+                        className="py-3 px-6 text-xs font-medium tracking-wider text-left  uppercase text-gray-400"
                       >
                         Büyüklük (AFAD)
                       </th>
                       <th
                         scope="col"
-                        class="py-3 px-6 text-xs font-medium tracking-wider text-left  uppercase text-gray-400"
+                        className="py-3 px-6 text-xs font-medium tracking-wider text-left  uppercase text-gray-400"
                       >
                         Bölge
                       </th>
                       <th
                         scope="col"
-                        class="py-3 px-6 text-xs font-medium tracking-wider text-left  uppercase text-gray-400"
+                        className="py-3 px-6 text-xs font-medium tracking-wider text-left  uppercase text-gray-400"
                       >
                         Şehir
                       </th>
@@ -133,32 +133,32 @@ export default function deprem(props) {
                   </thead>
                   <tbody>
                     {depremler.map((d) => (
-                      <tr key={d.date} class="bg-[#101010] border-gray-700">
-                        <td class="py-4 px-6 text-sm  whitespace-nowrap text-gray-200">
+                      <tr key={d.date} className="bg-[#101010] border-gray-700">
+                        <td className="py-4 px-6 text-sm  whitespace-nowrap text-gray-200">
                           {d.date.substring(0, 10)}
                         </td>
-                        <td class="py-4 px-6 text-sm  whitespace-nowrap text-gray-200">
+                        <td className="py-4 px-6 text-sm  whitespace-nowrap text-gray-200">
                           {d.time}
                         </td>
-                        <td class="py-4 px-6 text-sm  whitespace-nowrap text-gray-400">
+                        <td className="py-4 px-6 text-sm  whitespace-nowrap text-gray-400">
                           {d.enlem}
                         </td>
-                        <td class="py-4 px-6 text-sm  whitespace-nowrap text-gray-400">
+                        <td className="py-4 px-6 text-sm  whitespace-nowrap text-gray-400">
                           {d.boylam}
                         </td>
-                        <td class="py-4 px-6 text-sm  whitespace-nowrap text-gray-400">
+                        <td className="py-4 px-6 text-sm  whitespace-nowrap text-gray-400">
                           {d.derinlik}
                         </td>
-                        <td class="py-4 px-6 text-sm  whitespace-nowrap text-gray-200">
+                        <td className="py-4 px-6 text-sm  whitespace-nowrap text-gray-200">
                           {d.kandilli}
                         </td>
-                        <td class="py-4 px-6 text-sm  whitespace-nowrap text-gray-200">
+                        <td className="py-4 px-6 text-sm  whitespace-nowrap text-gray-200">
                           {d.afad}
                         </td>
-                        <td class="py-4 px-6 text-sm  whitespace-nowrap text-gray-200">
+                        <td className="py-4 px-6 text-sm  whitespace-nowrap text-gray-200">
                           {d.bolge}
                         </td>
-                        <td class="py-4 px-6 text-sm  whitespace-nowrap text-gray-400">
+                        <td className="py-4 px-6 text-sm  whitespace-nowrap text-gray-400">
                           {d.sehir}
                         </td>
                       </tr>
